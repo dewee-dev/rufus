@@ -24,7 +24,7 @@ on:
       - '**.sh'
       - '**.txt'
       - '**.xml'
-
+  workflow_dispatch:
 env:
   SOLUTION_FILE_PATH: ./rufus.sln
   BUILD_CONFIGURATION: Release
